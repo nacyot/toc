@@ -8,7 +8,7 @@
   "main": "dist/toc.bower.js",
   "dependencies": {
     "jquery": "*",
-    "smooth-scroller": "~1"
+    "smooth-scroller": "~0"
   },
   "devDependencies": {
     "assert": "*",
