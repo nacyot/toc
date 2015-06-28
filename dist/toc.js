@@ -166,7 +166,7 @@ jQuery.fn.toc.defaults = {
       return heading.id;
     }
 
-    var candidateId = $(heading).text().replace(/[^a-z0-9]/ig, ' ').replace(/\s+/g, '-').toLowerCase();
+    var candidateId = $(heading).text().replace(/[^a-z0-9]/ig, 'Q').replace(/\s+/g, '-').toLowerCase();
     if (verboseIdCache[candidateId]) {
       var j = 2;
       
